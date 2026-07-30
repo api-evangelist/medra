@@ -1,8 +1,27 @@
 aid: medra
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/medra.png
 name: Medra
-description: 'Medra is a company surfaced as a portfolio company of lux-capital, menlo-ventures and added
-  to the API Evangelist network as a stub for enrichment. Sector: robotics. This profile is a lead awaiting
-  the enrichment pipeline.'
+description: 'Medra builds an AI-powered robotic platform for autonomous laboratory
+  work in the life sciences. Its "Physical AI Scientist" combines robotic hardware,
+  computer vision, and scientific reasoning AI to design, execute, and continuously
+  optimize experiments — gene editing, RNA/nucleic-acid work, antibody design, and
+  cell-based assays — the way a human scientist would. Units are deployed at partner
+  sites including Genentech and Addition Therapeutics, with a DARPA collaboration on
+  its AI Experimentalist reasoning layer. Founded by Michelle Lee and headquartered
+  in San Francisco, Medra raised a $52M Series A (Dec 2025) from investors including
+  Lux Capital and Menlo Ventures. As of this enrichment pass Medra publishes no public
+  API, SDK, developer portal, or documentation surface.'
 url: https://raw.githubusercontent.com/api-evangelist/medra/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -13,10 +32,16 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
 - Robotics
+- Artificial Intelligence
+- Life Sciences
+- Drug Discovery
+- Laboratory Automation
+- Physical AI
+- Biotechnology
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -26,3 +51,12 @@ maintainers:
 common:
 - type: Website
   url: https://medra.ai
+- type: Blog
+  url: https://www.medra.ai/blog
+- type: DomainSecurity
+  url: security/medra-domain-security.yml
+x-enrichment:
+  date: '2026-07-20'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
